@@ -1,0 +1,92 @@
+body {
+  background-color: #FAF7F5;
+}
+.contenedor .encabezado{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: skyblue;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  height: 40px;
+  width: 100%;
+  font: weight: bold;
+  z-index: 9999;
+}
+
+.menu{
+  margin-bottom: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu li img{
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.menu li:hover{
+  transform: scale(1.1);
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+  border: 1px solid #FAF7F5;
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.contenido{
+  margin-top: 200px;
+}
+
+.cuadro{
+  margin-top: 28px;
+  width: 200px;
+  height: 200px;
+  border: navy solid 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cuadro img{
+  width: 200px;
+  height: 200px;
+}
+
+.cuadro img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: grab;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #000;
+  z-index: 2;
+} 
+
+.anuncio img{
+  display: inline-block;
+  position: relative;
+  border: 1px solid #000;
+  left: 1680px;
+  top: -1030px;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.anuncio img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #000;
+  z-index: 2;
+}
